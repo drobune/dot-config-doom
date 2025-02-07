@@ -10,3 +10,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+(put 'projectile-grep 'disabled nil)
+
+(global-set-key "\C-xo" 'consult-find)
+(global-set-key "\C-x\C-f" 'consult-ripgrep)
+(global-set-key "\C-s" 'consult-line)
